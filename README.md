@@ -61,8 +61,12 @@ src/
          
 
 ## Screenshots of the application
+https://drive.google.com/file/d/1LEdl0CfMC5QXwS6ZfK9HM2T4ftPCt9z8/view?usp=drive_link
 
+https://drive.google.com/file/d/18f38mLkPeSlc1VCI_wlNStOVPuZvKTSx/view?usp=drive_link
 
-![Alt text] (images/TM1.png)
-![Alt text] (images/TM2.png)
+https://drive.google.com/file/d/1ZcotBU1L1JcEMnNUyJtHLkBZLd5mVzDu/view?usp=drive_link
 
+https://drive.google.com/file/d/1iMRSIl3x0IcF0oFgpVi5sv3CEttyzMY9/view?usp=drive_link
+
+https://drive.google.com/file/d/19mJ8wV3e4rKssgmcp78ePz46qtSEdTCW/view?usp=drive_link
