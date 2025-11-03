@@ -57,6 +57,9 @@ src/
                📄about page
                📄card page
                📄contact page
+         📂styles-contains all the css files for the different jsx files.
+         
 
-         📂styles
-         -contains all the css files for the different jsx files.
+## Screenshots of the application
+
+![Alt text] (images/TM1.png)         
