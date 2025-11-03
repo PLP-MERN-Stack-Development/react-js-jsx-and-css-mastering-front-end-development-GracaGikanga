@@ -1,18 +1,67 @@
-# React + Vite
+# React.js and Tailwind CSS Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## React Compiler
+1. Accept the GitHub Classroom assignment invitation
+2. Clone your personal repository that was created by GitHub Classroom
+3. Install dependencies:
+   ```
+   npm install
+   ```
+4. Start the development server:
+   ```
+   npm run dev
+   ```
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Files Included
 
-Note: This will impact Vite dev & build performances.
+- `Week3-Assignment.md`: Detailed assignment instructions
+- Starter files for your React application:
+  - Basic project structure
+  - Pre-configured Tailwind CSS
+  - Sample component templates
 
-## Expanding the ESLint configuration
+## Requirements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js (v18 or higher)
+- npm or yarn
+- Modern web browser
+- Code editor (VS Code recommended)
+
+## Project Structure
+
+```
+src/
+├── components/       # Reusable UI components
+├── pages/           # Page components
+├── hooks/           # Custom React hooks
+├── styles/           # Utility functions
+└── App.jsx          # Main application component
+```
+
+## Main project Overview
+   📂 Task Manager -React App
+      📂src
+         📂Components
+               -contain the jsx files for the about,contact, footer pages and for features such as buttons.
+               -📄taskfilter.jsx -> contains buttons for filtering different tasks.
+               -📄taskManager.jsx ->contains API
+         📂hooks
+               -has localStorage.jsx that defines a custom React Hook called useLocalStorage.
+               - It automatically saves your state to the browser’s local storage,
+               so your data stays even after you refresh the page.
+         📂pages
+               📄about page
+               📄card page
+               📄contact page
+
+         📂styles
+         -contains all the css files for the different jsx files.
+
+
+## Screenshots of the application
+
+![Alt text] (images/TM1.png)

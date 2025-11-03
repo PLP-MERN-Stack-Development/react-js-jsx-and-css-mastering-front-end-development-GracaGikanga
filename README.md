@@ -62,4 +62,7 @@ src/
 
 ## Screenshots of the application
 
-![Alt text] (images/TM1.png)         
+
+![Alt text] (images/TM1.png)
+![Alt text] (images/TM2.png)
+
