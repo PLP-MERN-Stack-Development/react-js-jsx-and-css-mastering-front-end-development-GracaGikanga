@@ -2,14 +2,6 @@
 
 This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
 
-## Assignment Overview
-
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
 
 ## Getting Started
 
@@ -46,25 +38,25 @@ src/
 ├── components/       # Reusable UI components
 ├── pages/           # Page components
 ├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
+├── styles/           # Utility functions
 └── App.jsx          # Main application component
 ```
 
-## Submission
+## Main project Overview
+   📂 Task Manager -React App
+      📂src
+         📂Components
+               -contain the jsx files for the about,contact, footer pages and for features such as buttons.
+               -📄taskfilter.jsx -> contains buttons for filtering different tasks.
+               -📄taskManager.jsx ->contains API
+         📂hooks
+               -has localStorage.jsx that defines a custom React Hook called useLocalStorage.
+               - It automatically saves your state to the browser’s local storage,
+               so your data stays even after you refresh the page.
+         📂pages
+               📄about page
+               📄card page
+               📄contact page
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
-
-## Resources
-
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+         📂styles
+         -contains all the css files for the different jsx files.
