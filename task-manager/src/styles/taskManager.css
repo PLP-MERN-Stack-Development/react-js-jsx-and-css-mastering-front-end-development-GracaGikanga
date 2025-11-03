@@ -1,0 +1,105 @@
+.task-manager {
+  width: 60vw;
+  margin: 40px;
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.task-input {
+  display: flex;
+  gap: 10px;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 10px;
+}
+
+.task-list {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button {
+  padding: 6px 10px;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+
+/*Task Filter*/
+.task-filters {
+  margin: 1rem 0;
+}
+
+
+.task-filters button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+
+.task-filters button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+.task-search input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+  .task-manager {
+    padding: 1rem;
+  }
+
+  .task-list li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .task-manager {
+    width: 100%;
+    font-size: 0.85rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}

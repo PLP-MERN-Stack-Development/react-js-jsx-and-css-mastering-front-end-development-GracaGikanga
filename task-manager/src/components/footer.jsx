@@ -1,0 +1,13 @@
+import styles from "../styles/footer.module.css"
+
+function Footer(){
+    
+    return(
+        <footer className={styles.footer}>
+        <p>© {new Date().getFullYear()} Task Manager — All Rights Reserved.</p>
+      </footer>
+
+    )
+}
+export default Footer;
+

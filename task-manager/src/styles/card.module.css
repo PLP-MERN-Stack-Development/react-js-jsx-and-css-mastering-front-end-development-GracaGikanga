@@ -1,0 +1,39 @@
+.card {
+    width: 90vw;
+    max-width: 90%;
+    min-height: 50vh;
+    max-height: 100vh; /* Prevent infinite growth */
+    overflow-y: auto;  /* Enable scrolling when tasks overflow */
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 20px; /* Give space for inner content */
+    text-align: center;
+    background-color: #92ADA4;
+}
+
+
+.theme-btn{
+    margin-left:100px;
+}
+
+@media (max-width: 768px) {
+  .task-manager {
+    padding: 1rem;
+  }
+
+  .task-list li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .task-manager {
+    width: 100%;
+    font-size: 0.85rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}

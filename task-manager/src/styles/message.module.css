@@ -1,0 +1,35 @@
+.message {
+  color: #1a1a1a;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  transition: color 200ms ease, transform 200ms ease;
+}
+
+/* Change color on hover */
+.message:hover {
+  color: #db1eac;
+  font-size:5em;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .task-manager {
+    padding: 1rem;
+  }
+
+  .task-list li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .task-manager {
+    width: 100%;
+    font-size: 0.85rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}

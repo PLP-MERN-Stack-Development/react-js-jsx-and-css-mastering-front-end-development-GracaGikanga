@@ -1,0 +1,27 @@
+.footer {
+    background-color: #688a65;
+    border-radius:5px;
+    width:30%;
+    margin-top:5%;
+    margin-bottom:1%;
+}
+@media (max-width: 768px) {
+  .task-manager {
+    padding: 1rem;
+  }
+
+  .task-list li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .task-manager {
+    width: 100%;
+    font-size: 0.85rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}

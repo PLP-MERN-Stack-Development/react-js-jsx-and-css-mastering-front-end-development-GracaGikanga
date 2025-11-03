@@ -1,0 +1,73 @@
+.about {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  text-align: center;
+  color: #222;
+}
+
+/* Headings */
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+  color: #db1eac; /* matches your pink accent */
+}
+
+/* Paragraphs & lists */
+.about p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.about li {
+  margin: 0.4rem 0;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  text-align: left;
+}
+
+/* Links */
+.about a {
+  color: #db1eac;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.about a:hover {
+  text-decoration: underline;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+  .about {
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .about h1 {
+    font-size: 1.6rem;
+  }
+
+  .about h2 {
+    font-size: 1.2rem;
+  }
+
+  .about p,
+  .about li {
+    font-size: 0.95rem;
+  }
+}
